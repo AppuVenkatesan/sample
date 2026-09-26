@@ -61,6 +61,7 @@ public void click_on_confirm() {
 public void click_on_ok() {
 	
 	 driver.switchTo().alert().accept();
+	 driver.close();
 }
 
 }
