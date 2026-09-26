@@ -57,4 +57,10 @@ public void click_on_confirm() {
   
 }
 
+@Then("click on ok")
+public void click_on_ok() {
+	
+	 driver.switchTo().alert().accept();
+}
+
 }
